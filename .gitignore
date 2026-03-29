@@ -1,0 +1,41 @@
+*.xlsx
+*.zip
+*.gz
+*.csv
+*.html
+*.pdf
+*.DS_Store
+*.code-workspace
+*.env
+*.parquet
+*.json
+*.tmp
+*.driveupload
+*.pptx
+*.png
+*.npz
+*.joblib
+*logs
+
+# Hugging Face cache
+getaround_analysis/Dashboard/.cache/huggingface/
+
+# pip cache
+getaround_analysis/Dashboard/.cache/pip/
+
+# npm logs
+getaround_analysis/Dashboard/.npm/
+
+# IPython history and startup files
+getaround_analysis/Dashboard/.ipython/
+
+mlruns/
+
+Icon?
+
+__pycache__/
+
+#mlflow_fastapi/citibike_project/
+#mlflow_fastapi/mlflow_citibike_project/
+
+citibike_prediction
